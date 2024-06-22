@@ -299,6 +299,8 @@ console.log(oddFn(20)) // [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 // console.log(mainFunc(2, 5, cbAdd)) // 7
 // console.log(mainFunc(2, 5, 'not a func')) // false
 
+console.log('----------------------- #8 -----------------------')
+
 function mainFunc(a, b, callback) {
   if (typeof callback !== 'function') {
     return false
