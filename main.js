@@ -309,15 +309,15 @@ function mainFunc(a, b, callback) {
 }
 
 function cbRandom(min, max) {
-  return "Random number:" + Math.floor(Math.random() * (max - min + 1)) + min
+  return `Random number: ${Math.floor(Math.random() * (max - min + 1)) + min}`
 }
 
 function cbPow(num, pow) {
-  return "Pow number:" +  Math.pow(num, pow)
+  return `Pow number: ${Math.pow(num, pow)}`
 }
 
 function cbAdd(a, b) {
-  return "Concatenation number:" +  a + b
+  return `Concatenation number: ${a + b}`
 }
 
 console.log(mainFunc(2, 5, cbRandom)) // цілі числа в діапазоні 2..5
